@@ -46,12 +46,14 @@ divOfoption.forEach((opt) => {
       opt.style.paddingTop=""
       op.style.width = "";
       op.style.borderBottom = ""; 
+      op.style.transition = "transform 0.9s ease-in-out"; 
     });
   
     opt.style.paddingBottom = "1.5em"; 
     opt.style.paddingTop="1em"
     opt.style.width = "fit-content";
     opt.style.borderBottom = "0.3em solid hsl(26, 100%, 55%)"; 
+    opt.style.transition = "transform 0.9s ease-in-out"; 
     opt.style.cursor="pointer"
   });
 
@@ -60,6 +62,7 @@ divOfoption.forEach((opt) => {
     opt.style.paddingTop="" 
     opt.style.width = "";
     opt.style.borderBottom = "";
+    opt.style.transition = "transform 0.5s ease-in-out"; 
   });
 });
 

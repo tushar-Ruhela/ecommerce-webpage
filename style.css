@@ -344,11 +344,9 @@ margin-left: 20.5em;
     width: 5em;
     border-radius: 1em;
 }
-/* .nav-option{
-   padding-bottom: 1em;
-    width: fit-content;
-    border-bottom: 0.3em solid hsl(26, 100%, 55%);
-} */
+.nav-option{
+   transition: 5s ease-in-out;
+}
 #pop-image-large{
     height: 20em;
     width: 22em;
@@ -478,11 +476,14 @@ height: 3em;
     background-color: hsl(0, 0%, 100%);
     visibility: visible;
      transform: translateX(-10em);
+     margin-top: 46em;
+   
 }
 #bar-opt{
     display: flex;
     flex-direction: column;
     gap: 1em;
+   
 }
 a{
     color: hsl(180, 5%, 4%);
