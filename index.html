@@ -15,6 +15,47 @@
     <title>Frontend Mentor | E-commerce product page</title>
   </head>
   <body>
+    <article class="popup-page">
+      <div>
+        <img src="images/icon-close.svg" alt="close-option" id="closebtn" />
+        <section class="pop-image">
+          <img
+            src="images/image-product-1.jpg"
+            alt="product-images"
+            id="pop-image-large"
+          />
+          <div class="next">
+            <img src="images/icon-next.svg" alt="next-slide" />
+          </div>
+          <div class="previous">
+            <img src="images/icon-previous.svg" alt="previous-slide" />
+          </div>
+        </section>
+        <section class="small-images">
+          <img
+            src="images/image-product-1-thumbnail.jpg"
+            alt="images"
+            id="1"
+            class="pop-thumbnail"
+          /><img
+            src="images/image-product-2-thumbnail.jpg"
+            alt="image-product-2-thumbnail"
+            id="2"
+            class="pop-thumbnail"
+          /><img
+            src="images/image-product-3-thumbnail.jpg"
+            alt="image-product-3-thumbnail"
+            id="3"
+            class="pop-thumbnail"
+          /><img
+            src="images/image-product-4-thumbnail.jpg"
+            alt="image-product-4-thumbnail"
+            id="4"
+            class="pop-thumbnail"
+          />
+        </section>
+      </div>
+    </article>
     <div class="cart-item">
       <span>Cart</span>
       <hr />
@@ -35,8 +76,11 @@
       <div class="mobile-bar">
         <img src="images/icon-close.svg" alt="close-option" id="close-option" />
         <div id="bar-opt">
-          <a href="#">Collections</a><a href="#"> Men</a><a href="#"> Women</a>
-          <a href="#"> About</a><a href="#">Contact</a>
+          <a href="#">Collections</a>
+          <a href="#"> Men</a>
+          <a href="#"> Women</a>
+          <a href="#"> About</a>
+          <a href="#">Contact</a>
         </div>
       </div>
       <section class="head-logo">
@@ -45,8 +89,16 @@
         </div>
         <img src="images/logo.svg" alt="logo-image" />
         <section id="bar-option">
-          <a href="#">Collections</a><a href="#"> Men</a><a href="#"> Women</a>
-          <a href="#"> About</a><a href="#">Contact</a>
+          <div class="nav-option"><a href="#" class="anchor">Collections</a></div>
+          <div class="nav-option"><a href="#" class="anchor"> Men</a></div>
+          <div class="nav-option"> <a href="#" class="anchor"> Women</a></div>
+          <div class="nav-option"><a href="#" class="anchor"> About</a></div>
+          <div class="nav-option"><a href="#" class="anchor">Contact</a></div>
+          
+          
+         
+          
+          
         </section>
       </section>
 
@@ -134,47 +186,7 @@
           </button>
         </section>
       </article>
-      <article class="popup-page">
-        <img src="images/icon-close.svg" alt="close-option" id="closebtn">
-        <section class="large-image">
-          <img
-            src="images/image-product-1.jpg"
-            alt="product-images"
-            id="large-img"
-          />
-          <div class="next">
-            <img src="images/icon-next.svg" alt="next-slide" />
-          </div>
-          <div class="previous">
-            <img src="images/icon-previous.svg" alt="previous-slide" />
-          </div>
-        </section>
-        <section class="small-images">
-          <img
-            src="images/image-product-1-thumbnail.jpg"
-            alt="images"
-            id="1"
-            class="thumbnail"
-          /><img
-            src="images/image-product-2-thumbnail.jpg"
-            alt="image-product-2-thumbnail"
-            id="2"
-            class="thumbnail"
-          /><img
-            src="images/image-product-3-thumbnail.jpg"
-            alt="image-product-3-thumbnail"
-            id="3"
-            class="thumbnail"
-          /><img
-            src="images/image-product-4-thumbnail.jpg"
-            alt="image-product-4-thumbnail"
-            id="4"
-            class="thumbnail"
-          />
-        </section>
-      </article>
     </main>
-    
 
     <script src="ecommerce.js"></script>
   </body>
