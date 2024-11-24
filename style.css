@@ -468,7 +468,7 @@ height: 3em;
     flex-direction: column;
     gap: 2em;
     align-items: self-start;
-    height:100%;
+    height:70em;
     width: 10em;
     margin-left:-12em;
     position: absolute;
@@ -476,7 +476,8 @@ height: 3em;
     background-color: hsl(0, 0%, 100%);
     visibility: visible;
      transform: translateX(-10em);
-     margin-top: 46em;
+     margin-top: 19em;
+     justify-content: center;
    
 }
 #bar-opt{
